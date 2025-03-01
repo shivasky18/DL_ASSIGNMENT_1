@@ -24,6 +24,8 @@ A small learning rate (0.0001) with RMSprop improved generalization but was slow
 
 
 Interpretation:
+
+
 Adam with moderate hidden layer sizes and a learning rate of 0.001 provided the best overall results.
 SGD required more epochs and was slower to converge but still performed well with a more complex network.
 RMSprop performed similarly to Adam but took longer to converge, emphasizing the importance of balancing speed and generalization.
